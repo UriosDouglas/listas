@@ -1,0 +1,10 @@
+lista = [5.00, 3.50, 4.80, 8.90, 7.32]
+
+codigo = int(input('Digite o código do produto:'))
+elemento = lista[codigo-1]
+
+#com "codigo-1" eu posso puxar um item da lista começando do numero 1 que fica mais fácil pro usuario escolher.
+
+quantidade = int(input('Digite a quantidade:'))
+
+print(f'Valor a pagar:R${elemento * quantidade:.2f}')
